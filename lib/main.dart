@@ -12,10 +12,13 @@ class FlutterScreen extends StatelessWidget {   // StatelessWidget 선언
         body: Container(   // 컨테이너 위젯
           // 컨테이너를 디자인하는 클래스
           decoration: BoxDecoration(
-            color: Colors.orange,   // 색상
+            color: Color(0xFFF99231),   // 색상
           ),
           child: Center(
-            child: Text('Flutter Screen'),
+            // Image 위젯
+            child: Image.asset(
+              'assets/logo.png',
+            ),
           ),
         ),
       ),
